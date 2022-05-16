@@ -16,7 +16,7 @@ Final Readmefile.txt includes the output of all grid sizes : 6x6, 7x6, 8x7, 8x8
 
 def Generate_ReadmeFile():
 
-  with open("GeneratedReadme.txt", "w") as FileOpenReadme:
+  with open("Readme.txt", "w") as FileOpenReadme:
     if (SearchAlgorithm == "MM"):
       FileOpenReadme.write("\n **** Search Method : Minmax Algorithm **** \n")
     else:
